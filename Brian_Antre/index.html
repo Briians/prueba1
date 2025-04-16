@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> El aniquilador del hambre</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <body class="bg-white text-dark">
+    <header>
+        <div class="container">
+            <header class="bg-danger  text-center p-1 ">
+            <h1>El aniquilador del Hambre</h1>
+            <p>50 años eliminando el hambre con sabor</p>
+   </header>
+
+    </div class= "container"> 
+       <p>
+      </p>
+     <img src="Imagenes/comida_rapida1.webp" alt="Comida rápida" width="500" height="350" class="d-block mx-auto">
+         <div class=" text-center ">
+            <a href="Carta.html"class="text-dark">Haz Click para ver la Carta</a>
+        </div>
+    
+     </div>
+    <div class="container mt-4">
+        <h2 class="bg-danger text-center">Sucursales</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class= "text-center"> Casa Matriz</h5>
+            <img src="Imagenes/sucursal1.png" class="img-fluid imagen-sucursal"style="height: 250px; object-fit: cover;" alt="Sucursal">
+            
+            <p>Dirección: Calle Central 123</p>
+            <p>Tel: +569 999999</p>
+            <p>Email: sucursal1@aniquilador.cl</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class= "text-center"> Sucursal Norte</h5>
+            <img src="Imagenes/sucursal2.webp" class="img-fluid imagen-sucursal"style="height: 250px; object-fit: cover;" alt="Sucursal">        
+            <p>Dirección: Av. Norte 456</p>
+            <p>Tel: +569 88888888</p>
+            <p>Email: sucursal2@aniquilador.cl</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class= "text-center">Sucursal Sur</h5>
+            <img src="Imagenes/sucursal3.webp" class="img-fluid imagen-sucursal"style="height: 250px; object-fit: cover;" alt="Sucursal">
+
+            <p>Dirección: Ruta Sur 789</p>
+            <p>Tel: +569 888888</p>
+            <p>Email: sucursal3@aniquilador.cl</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5" style="max-width: 600px;">
+        <h2 class="mb-4 text-center text-decoration-underline">Formulario de Contacto</h2>
+        <form id="Contacto" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+                <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" required>
+                <div class="invalid-feedback">Por favor, ingresa un correo válido.</div>
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono de contacto</label>
+                <input type="tel" class="form-control" id="telefono" required>
+                <div class="invalid-feedback">Por favor, ingresa tu número de teléfono.</div>
+            </div>
+            <div class="mb-3">
+                <label for="tipo" class="form-label">Tipo</label>
+                <select class="form-select" id="tipo" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="reclamo">Reclamo</option>
+                </select>
+                <div class="invalid-feedback">Selecciona una opción.</div>
+            </div>
+            <div class
+               class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                <div class="invalid-feedback">Por favor, escribe tu mensaje.</div>
+              </div>
+          
+              <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </div>
+
+   
+</body>
+</html>
